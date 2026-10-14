@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/IsSortedTest.java",
+      "testCases": [
+        {
+          "methodName": "isSortedTest1",
+          "label": "Verify unsorted array returns false",
+          "description": "Tests that the checkSort method correctly returns false when given the unsorted array {7,5,9,0,2}"
+        },
+        {
+          "methodName": "isSortedTest2",
+          "label": "Verify sorted array returns true",
+          "description": "Tests that the checkSort method correctly returns true when given the sorted array {1,2,3,4,5}"
+        },
+        {
+          "methodName": "isSortedTest3",
+          "label": "Verify sorted array with gaps returns true",
+          "description": "Tests that the checkSort method correctly returns true when given the sorted array {2,4,6,7} with non-consecutive values"
+        }
+      ]
+    }
+  ]
+}
